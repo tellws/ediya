@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <title>EDIYA COFFEE</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="카페 프랜차이즈, 에스프레소 등 메뉴 소개, 전국매장, 이벤트, 창업, 커피 아카데미 등 안내." />
+        <link rel="shortcut icon" href="../img/favicon/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/style.css" media="screen and (min-width: 1181px)" />
+        <link rel="stylesheet" href="../css/style_mobile.css" media="screen and (max-width: 1180px)" />
+        <script src="../js/jquery-3.2.1.min.js"></script>
+        <script src="../js/common.js"></script>
+    </head>
+    <body class="sub coffee_lab lab_menu">
+        <a href="#main" id="skip-nav">본문 바로가기</a>
+        <div id="wrapper">
+            <header id="header">
+                <div id="header-top">
+                    <ul class="global">
+                        <li class="on"><a href="#">브랜드 사이트</a></li>
+                        <li><a href="#">기업 사이트</a></li>
+                    </ul>
+                    <div class="top-nav pc">
+                        <ul class="member">
+                            <li><a href="#">로그인</a></li>
+                            <li><a href="#">회원가입</a></li>
+                            <li><a href="#">매장찾기</a></li>
+                        </ul>
+                        <ul class="sns">
+                            <li><a href="#" title="네이버 블로그로 이동"><img src="../img/top_sns01_b.gif" alt="네이버 블로그" /></a></li>
+                            <li><a href="#" title="인스타그램로 이동"><img src="../img/top_sns02_b.gif" alt="인스타그램" /></a></li>
+                            <li><a href="#" title="페이스북로 이동"><img src="../img/top_sns03_b.gif" alt="페이스북" /></a></li>
+                        </ul>
+                        <ul class="lang-list"> <!-- on -->
+                            <li><a href="#">Korean</a></li>
+                            <li><a href="#">English</a></li>
+                            <li><a href="#">Chinese</a></li>
+                        </ul>
+                    </div>
+                </div>
+<!--//header-top-->                
+                <div id="header-bottom">
+                    <h1 class="logo pc"><a href="../index.html"><img src="../img/top_logo_b.gif" alt="EDIYA COFFEE" /></a></h1>
+                    <h1 class="logo mobile"><a href="../index.html"><img src="../img/top_logo.gif" alt="EDIYA COFFEE" /></a></h1>
+                    <a href="#" class="menu mobile"><span>메뉴열기/닫기</span></a>
+                    <nav id="gnb">
+                        <div class="top-nav mobile">
+                            <ul class="member">
+                                <li><a href="#">로그인</a></li>
+                                <li><a href="#">회원가입</a></li>
+                            </ul>
+                           <ul class="sns">
+                                <li><a href="#" title="네이버 블로그으로 이동"><img src="../img/m_top_sns01.gif" alt="네이버 블로그" /></a></li>
+                                <li><a href="#" title="인스타그램으로 이동"><img src="../img/m_top_sns02.gif" alt="인스타그램" /></a></li>
+                                <li><a href="#" title="페이스북으로 이동"><img src="../img/m_top_sns03.gif" alt="페이스북" /></a></li>
+                            </ul>
+                        </div>
+                        <ul>
+                            <li data-menu="menu"><a href="#">메뉴</a>
+                                <ul>
+                                    <li data-menu="drink"><a href="menu_drink.html">음료</a></li>
+                                    <li data-menu="bakery"><a href="#">베이커리</a></li>
+                                    <li data-menu="MD"><a href="#">MD</a></li>
+                                    <li data-menu="beanist"><a href="#">비니스트</a></li>
+                                    <li data-menu="bean"><a href="#">원두</a></li>
+                                </ul>
+                            </li>
+                            <li data-menu="members"><a href="#">이디야멤버스</a>
+                                <ul>
+                                    <li data-menu="members_intro"><a href="#">멤버스 소개</a></li>
+                                    <li data-menu="reward"><a href="#">2018 리워드</a></li>
+                                    <li data-menu="card"><a href="#">이디야카드</a></li>
+                                    <li data-menu="gift"><a href="#">선물하기</a></li>
+                                    <li data-menu="smart_order"><a href="#">스마트오더</a></li>
+                                    <li data-menu="FAQ"><a href="#">FAQ</a></li>
+                                </ul>
+                            </li>
+                            <li data-menu="coffee_lab"><a href="#">이디야커피랩</a>
+                                <ul>
+                                    <li data-menu="lab_intro"><a href="#">이디야커피랩</a></li>
+                                    <li data-menu="lab_menu"><a href="coffee-lab_lab-menu.html">이디야커피랩 메뉴</a></li>
+                                </ul>
+                            </li>
+                            <li data-menu="culture_lab"><a href="#">이디야컬쳐랩</a>
+                                <ul>
+                                    <li data-menu="music_festa"><a href="#">뮤직페스타</a></li>
+                                    <li data-menu="lab_rental"><a href="#">컬쳐랩 시설대관</a></li>
+                                </ul>
+                            </li>
+                            <li data-menu="notice"><a href="#">공지사항</a>
+                                <ul>
+                                    <li data-menu="news"><a href="#">이디야 소식</a></li>
+                                    <li data-menu="event"><a href="#">이벤트</a></li>
+                                </ul>
+                            </li> 
+                        </ul>
+                        <div id="mobile-gnb-util" class="mobile tablet">
+                           <a href="#" class="findstore">매장 찾기</a>
+                            <ul class="lang-list">
+                                <li class="on"><a href="#">Korean</a></li>
+                                <li><a href="#">English</a></li>
+                                <li><a href="#">Chinese</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+<!--//header-bottom-->                
+            </header>
+            <main id="main">
+                <section id="sub-visual">
+                    <div class="info">
+                        <div class="info-visual">
+                            <h2 class="pc">완벽함을 즐기다</h2>
+                            <h2 class="mobile"><img src="../img/lab_menu_tt_m.png" alt="LAB 메뉴" /></h2>
+                            <p class="text">최고의 전문가들의 손 끝에서 탄생한 스페셜 커피와 프리미엄 원재료로 완성된 베이커리<br />이곳은 완벽을 실현하는 이디야커피랩입니다.</p>
+                        </div>
+                        <nav class="lnb">
+                            <ul>
+                                <li><a href="#">이디야커피랩</a></li>
+                                <li class="on"><a href="#">이디야커피랩 메뉴</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </section>
+<!--//sub-visual-->
+                <section id="lab-map">
+                    <div class="lab-map-box">
+                        <h2>특별함을 만드는 <em>커피연구소 안내</em></h2>
+                        <div class="map">
+                            <ul class="popup">
+                                <li><a href="#"><img src="../img/lab_block01_magnifier01.png" alt="01" ></a></li>
+                                <li><a href="#"><img src="../img/lab_block01_magnifier02.png" alt="02" ></a></li>
+                                <li><a href="#"><img src="../img/lab_block01_magnifier03.png" alt="03" ></a></li>
+                                <li><a href="#"><img src="../img/lab_block01_magnifier04.png" alt="04" ></a></li>
+                            </ul>
+                        </div>
+                        <div id="map-popup1" class="layer-popup">
+                            <h3>베이커리 룸 <em>- 베이커리</em></h3>
+                            <a href="#" class="close"><img src="../img/lab_block01_close.png" alt="close" /></a>
+                            <p class="info">베이커리 경쟁력을 전략적으로 강화하기 위해 신설한 이디야 커피 베이커리팀에서는 숙련된 개발진과 쉐프들이 맛있는 베이커리를 선사합니다. 식사를 대체할 수 있는 각종 샌드위치부터 최고급 원료만을 사용한 케이크 &amp; 디저트 메뉴까지 최고의 베이커리 전문가가 고객들의 입맛을 연구합니다.</p>
+                            <ul class="list">
+                                <li>
+                                    <span>브레드</span>
+                                    <p>쉐프가 엄선한 최상급의 재료로 만든 다양한 베이커리를 선보입니다.</p>
+                                </li>
+                                <li>
+                                    <span>디저트</span>
+                                    <p>눈과 입이 즐거운 맛있는 디저트를 가장 먼저 맛 볼 수 있습니다.</p>
+                                </li>
+                                <li>
+                                    <span>샌드위치</span>
+                                    <p>눈과 입이 즐거운 맛있는 샌드위치를 가장 먼저 맛 볼 수 있습니다.</p>
+                                </li>
+                            </ul>
+                            <a href="#" class="go">바로가기</a> 
+                        </div>
+                        <div id="map-popup2" class="layer-popup">
+                            <h3>메인 바 <em>- 음료 / 커피</em></h3>
+                            <a href="#" class="close"><img src="../img/lab_block01_close.png" alt="close" /></a>
+                            <p class="info">이디야커피랩에서 로스팅한 신선한 원두를 다양하게 시음할 수 있는 공가입니다. 전문 바리스타의 추천을 통해 나에게 맞는 커피를 경험해보세요.</p>
+                            <ul class="list">
+                                <li>
+                                    <span>에스프레소 바</span>
+                                    <p>이디야커피랩의 시그니쳐 원두 2종, '페르소나 블렌드'와 이디야커피랩 런칭 1주년 기념 블렌드 '1st Anniversary' 중 선택해 커피 메뉴를 즐기실 수 있습니다. 에스프레소 전용 빅토리아 아르두이노 블랙이글 머신으로 진정한 스페셜티 커피를 경험하실 수 있습니다.</p>
+                                </li>
+                                <li>
+                                    <span>브루잉 바</span>
+                                    <p>매년 각 산지 최고의 커피로 선정된 'C.O.E' 소규모 농장에서 향미의 질 향상에 중점을 두고 수확된 '마이크로 랏', 전세계적으로 최고의 향미로 인정받고 있는 '파나마 에스메랄다 게이샤' 3종 6개의 원두와 2가지 추출방식 중 선택하여 더욱 특별하고 풍성한 스페셜티 커피를 즐기실 수 있습니다.</p>
+                                </li>
+                                <li>
+                                    <span>콜드 드래프트 커피 바</span>
+                                    <p>콜드드립(Cold-Drip) 방식으로 장시간 추출된 스페셜티 커피에 질소를 충전한 청량한 질소커피를 즐기실 수 있는 공간입니다.</p>
+                                </li>
+                            </ul>
+                            <a href="#" class="go">메인바 가기</a>
+                            <a href="#" class="go">브루잉바 가기</a>
+                        </div>
+                        <div id="map-popup3" class="layer-popup">
+                            <h3>원두 퍼포먼스 바 <em>- MD / 원두</em></h3>
+                            <a href="#" class="close"><img src="../img/lab_block01_close.png" alt="close" /></a>
+                            <p class="info">이디야커피랩에서 엄선한 6종의 프리미엄 원두를 자유롭게 시음하고, 바리스타와의 커뮤니케이션을 통해 취향에 맞는 커피를 직접 커스터마이징해 볼 수 있는 공간입니다. 이디야커피랩에서 준비한 커피 세미나와 바리스타의 퍼포먼스를 통해 커피에 한 발 더 가까워질 수 있습니다.</p>
+                            <ul class="list">
+                                <li>
+                                    <span>원두 퍼포먼스 바</span>
+                                    <p>숙련된 소르터가 하나부터 열까지 깐깐하게 준비한 스페셜티 원두를 직접 만져보고, 시향할 수 있습니다. 언제나 열려있는 무료 시음대에서 테이스팅할 수 있는 공간입니다. 여섯 가지 싱글 오리진 원두를 나의 취향에 맞게 즉석에서 블렌딩하여 나만의 커피를 즐길 수 있습니다.</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="map-popup4" class="layer-popup">
+                            <h3>로스팅실 <em>- 원두</em></h3>
+                            <a href="#" class="close"><img src="../img/lab_block01_close.png" alt="close" /></a>
+                            <p class="info">이디야커피랩과 전국 이디야 매장에서 사용되는 모든 커피 원두를 로스팅하는 공간입니다. 공장형 대형 로스터부터 최신식 스마트 로스터까지 국내 최고의 시설을 갖춘 이디야커피랩의 심장입니다.</p>
+                            <ul class="list">
+                                <li>
+                                    <span>PROBAT 120</span>
+                                    <p>공장형 대형 로스터(120kg)</p>
+                                </li>
+                                <li>
+                                    <span>PROBAT P5</span>
+                                    <p>반자동형 SMALL – BATCH 로스터 – 스페셜티 원두 생산(35kg)</p>
+                                </li>
+                                <li>
+                                    <span>PROBAT SAMPLE ROASTER</span>
+                                    <p>다양한 산지별 생두 테스트, 소량 로스팅(5kg, 100g)</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>    
+                </section>
+<!--//lab-map-->
+                <section id="lab-coffee">
+                    <div class="lab-coffee-box">
+                        <h2>EDIYA COFFEE LAB<br /><em>COFFEE &amp; BEVERAGE</em></h2>
+                        <p class="text">국내 정상급 바리스타가 선보이는<br />커피연구소의 시그니처 음료, 그 차이를 느껴보세요.</p>
+                        <p class="bg"><img alt="" src="../img/lab_menu_gallery01.jpg" /></p>
+                        <div class="wrapper">
+                            <ul class="slide">
+                                <li><a href="#"><img src="../img/lab_menu_gallery01.jpg" alt="Barista's signature" /></a></li>
+                                <li><a href="#"><img src="../img/lab_menu_gallery02.jpg" alt="Espresso" /></a></li>
+                                <li><a href="#"><img src="../img/lab_menu_gallery03.jpg" alt="Juice" /></a></li>
+                                <li><a href="#"><img src="../img/lab_menu_gallery04.jpg" alt="Beverage" /></a></li>
+                            </ul>
+                        </div>
+                        <ul class="indicator">
+                            <!--jQuery-->
+                        </ul>
+                    </div>    
+                </section>
+<!--//lab-coffee-->
+                <section id="lab-special">
+                    <div class="lab-special-box">
+                        <h2>EDIYA COFFEE LAB<br /><em>SPECIALTY COFFEE BEANS</em></h2>
+                        <p class="text">엄선된 스페셜티 원두의 풍미를 최상으로 끌어낸<br />최고의 커피를 경험할 수 있는 공간</p>
+                        <dl>
+                            <dt class="on">
+                                <a href="#">MAIN BAR</a>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt class="coffee-bean">COFFEE BEAN</dt>
+                                    <dd>
+                                        <ul class="popup">
+                                            <li><a href="#"><img src="../img/IMG_1510135133628.png" alt="ESPRESSO BLEND/ 1st Anniverary SUGNATURE BLEND. 이디야커피랩 1주년 기념 블렌드 EDIYA COFFEE LAB 1st Anniversary" /></a></li>
+                                            <li><a href="#"><img src="../img/IMG_1510134935681.png" alt="ESPRESSO BLEND/ 페르소나 SUGNATURE BLEND. 에스프레소 블렌드 페르소나 Espresso Blend Persona" /></a></li>
+                                        </ul>
+                                    </dd>
+                                    <dt class="extract-machine">EXTACT MACHINE</dt>
+                                    <dd>
+                                        <ul>
+                                            <li><img src="../img/lab_blackeagle_card.png" alt="ESPRESSO/ 블랙이글. 빅토리아 아르두이노(Victoria Arduino)의 최고급 에스프레소 머신" /></li>
+                                        </ul>
+                                    </dd>
+                                </dl>
+                            </dd>
+                            <dt>
+                                <a href="#">BREWING BAR</a>
+                            </dt>
+                            <dd>
+                                <dl>
+                                    <dt class="coffee-bean">COFFEE BEAN
+                                    </dt>
+                                    <dd>
+                                        <ul class="popup">
+                                            <li><a href="#"><img src="../img/IMG_1510134960715.png" alt="BREWING SPECIALTY/ 과테말라 엘 소코로 자바 MICRO LOT" /></a></li>
+                                            <li><a href="#"><img src="../img/IMG_1511917827482.png" alt="BREWING SPECIALTY/ 파나마 에스메랄다 게이샤 내추럴 ESMERALDA GEISHA" /></a></li>
+                                            <li><a href="#"><img src="../img/IMG_1511917860664.png" alt="BREWING SPECIALTY/ 코스타리카 C.O.E C.O.E" /></a></li>
+                                            <li><a href="#"><img src="../img/IMG_1510135068829.png" alt="BREWING SPECIALTY/ 파마나 에스메랄다 게이샤 ESMERALDA GEISHA" /></a></li>
+                                            <li><a href="#"><img src="../img/IMG_1510135081722.png" alt="BREWING SPECIALTY/ 코스타리카 엘 디아 만테 MICRO LOT" /></a></li>
+                                            <li><a href="#"><img src="../img/IMG_1510135097524.png" alt="BREWING SPECIALTY/ 콜롬비아 수단 루메 허니 MICRO LOT" /></a></li>
+                                        </ul>
+                                    </dd>
+                                    <dt class="extract-machine">EXTACT MACHINE</dt>
+                                    <dd>
+                                        <ul>
+                                            <li><img src="../img/lab_hariotca3_card.png" alt="BREWING/ 하리오 TCA-3 SYHOPN. 다양한 향미의 스펙트럼을 묵직한 바디감과 함께 느낄 수 있는 진공 여과식 추출 기구" /></li>
+                                            <li><img src="../img/lab_hariov60_card.png" alt="BREWING/ 하리오 V60 HAND DRIP. 나선형 구조로 빠른 드립속도와 다양한 향미를 보장하는 투과식 핸드 드립 추출 기구" /></li>
+                                        </ul>
+                                    </dd>
+                                </dl>
+                            </dd>
+                        </dl>
+                        <div class="main-popup">
+                            <div id="special-popup1" class="layer-popup">
+                                <a href="#" class="close"><img src="../img/IMG_1511919248750.png" alt="이디야커피랩 1주년 기념 블렌드 EDIYA COFFEE LAB 1st Anniversary. EDIYA COFFEE LAB 1st Anniverasry 이디야커피랩 1주년 기념 블렌드 Tasting Note 테이스팅 노트, Red Wine, Berry-Link, Chocolate, Caramel, Clean, Well-Balanced. 커피에 대한 끊임 없는 탐구와 연구개발의 중심. 이디야커피랩 런칭 1주년을 기념하여 시즌 한정 에스프레소 블렌드를 선보입니다. 'EDIYA COFFEE LAB 1st Anniversary Blend'는 아프리카 대륙의 황제라는 이디야커피 브랜드의 의미에서 시작되었습니다. 아프리카 커피의 대표격인 에티오피아 스페셜 내추럴 커피와 케냐 'Top'등급의 워시드 커피를 블렌딩하여, 최적의 밸런스를 잡았습니다. 뚜렷한 차별성을 띄는 두 가지 다른 가공법의 커피 블렌딩을 통해 만들어 낸 새로운 맛의 시너지를 경험해보세요." class="pc" /><img src="../img/IMG_1511919248633.png" alt="이디야커피랩 1주년 기념 블렌드 EDIYA COFFEE LAB 1st Anniverasry" class="mobile" /></a>
+                            </div>
+                            <div id="special-popup2" class="layer-popup">
+                                <a href="#" class="close"><img src="../img/IMG_1511919270351.png" alt="이디야커피랩 1주년 기념 블렌드 EDIYA COFFEE LAB 1st Anniversary" /></a>
+                            </div>
+                        </div>
+                        <div class="brewing-popup">
+                            <div id="special-popup3" class="layer-popup">
+                                <a href="#" class="close"><img src="../img/IMG_1511919284379.png" alt="과테말라 엘 소코로 자바 MICRO LOT" /></a>
+                            </div>
+                            <div id="special-popup4" class="layer-popup">
+                                <a href="#" class="close"><img src="../img/IMG_1511919302154.png" alt="파나마 에스메랄다 게이샤 내추럴 / 파나마 에스메랄다 게이샤 Natural '마치 컵 안에서 신의 얼굴을 본 것 같았다' 신의 커피로도 유명한 에스메랄다 게이샤는 에티오피아 토착 품종의 파나마산 커피입니다. 수년간 세계 최고 품질의 커피로 명성을 떨쳐 왔으며, 스페셜티 커피의 대명사로 통합니다. Redion 생산지 Valle del Cauca, Colombia. Farmer 농장주 Camilo Merizlde & Holguin Family. CITY ROAST 개성과 밸런스를 극대화시키는 볶음도" class="pc" /><img src="../img/IMG_1511919302107.png" alt="EDIYA COFFEE LAB 파나마 에스메랄다 게이샤" class="mobile" /></a>
+                            </div>
+                            <div id="special-popup5" class="layer-popup">
+                                <a href="#" class="close"><img src="../img/IMG_1511919316881.png" alt="EDIYA COFFEE LAB 코스타리카 C.O.E C.O.E" /></a>
+                            </div>
+                            <div id="special-popup6" class="layer-popup">
+                                <a href="#" class="close"><img src="../img/IMG_1511919436669.png" alt="EDIYA COFFEE LAB 파마나 에스메랄다 게이샤" /></a>
+                            </div>
+                            <div id="special-popup7" class="layer-popup">
+                                <a href="#" class="close"><img src="../img/IMG_1511919335734.png" alt="코스타리카 엘 디아 만테 MICRO LOT" class="pc" /><img src="../img/IMG_1511919335873.png" alt="EDIYA COFFEE LAB 코스타리카 엘 디아 만테" class="mobile" /></a>
+                            </div>
+                            <div id="special-popup8" class="layer-popup">
+                                <a href="#" class="close"><img src="../img/IMG_1511919351329.png" alt="콜롬비아 수단 루메 허니 MICRO LOT" class="pc" /><img src="../img/IMG_1511919351742.png" alt="EDIYA COFFEE LAB 콜롬비아 수단 루메 허니" class="mobile" /></a>
+                            </div>
+                        </div>
+                    </div>    
+                </section>
+<!--//lab-special-->
+                <section id="lab-bakely">
+                    <div class="lab-bakely-box">
+                        <h2>EDIYA COFFEE LAB<br /><em>BAKERY</em></h2>
+                        <p class="text">신선한 재료와 저온 숙성 공법으로 만든 프리미엄 베이커리와 <br />정통 프랑스식 디저트  커피와 베이커리의 완벽한 조화를 경험하세요.</p>
+                        <ul class="icon">
+                            <li><a href="#">BREAD</a></li>
+                            <li><a href="#">DESSERT</a></li>
+                            <li><a href="#">SANDWICH</a></li>
+                        </ul>
+                    </div>    
+                </section>
+<!--//lab-bakely-->
+                <section id="lab-md">
+                    <div class="lab-md-box">
+                        <h2>EDIYA COFFEE LAB<br /><em>SPECIAL MD</em></h2>
+                        <div class="wrapper">
+                            <ul class="slide">
+                                <li><a href="#"><img src="../img/lab_block05_img01.jpg" alt="" /><p>SIGNATURE BREWING SET</p></a></li>
+                                <li><a href="#"><img src="../img/lab_block05_img02.jpg" alt="" /><p>SIGNATURE MUG &amp; DRIPPER</p></a></li>
+                                <li><a href="#"><img src="../img/lab_block05_img03.jpg" alt="" /><p>SPECIALTY BEAN</p></a></li>
+                                <li><a href="#"><img src="../img/lab_block05_img04.jpg" alt="" /><p>SINGLE ORIGIN</p></a></li>
+                                <li><a href="#"><img src="../img/lab_block05_img05.jpg" alt="" /><p>HANDMADE SOAP</p></a></li>
+                            </ul>
+                            <a class="prev" href="#"><img src="../img/lab_block05_left.png" alt="이전" /></a>
+                            <a class="next" href="#"><img src="../img/lab_block05_right.png"  alt="다음" /></a>
+                        </div>
+                    </div>    
+                </section>
+<!--//lab-md-->
+            </main>
+            <footer id="footer">
+                <nav id="fnb">
+                    <ul>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">멤버스 이용약관</a></li>
+                        <li><a href="#">가맹 안내</a></li>
+                        <li><a href="#">대량쿠폰구매</a></li>
+                        <li><a href="#">채용안내</a></li>
+                        <li><a href="#">고객의 소리</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">점주의 방</a></li>
+                    </ul>
+                </nav>    
+                <h3 class="logo"><img src="../img/bottom_logo.gif" alt="EDIYA COFFEE" /></h3>
+                <address class="addr">
+                    <p>서울특별시 강남구 논현로 636 이디야빌딩(서울특별시 강남구 논현동 221-17) TEL : 02-543-6467 FAX : 02-543-7191<br /> 사업자등록번호 : 107-86-16302 통신판매업 신고 : 강남 제 002519호 대표이사 : 문창기</p>
+                </address>
+                <p class="copyright">ⓒ 2017 EDIYA COFFEE COMPANY. ALL RIGHTS RESERVED..</p>
+            </footer>
+<!--//footer-->  
+        </div>
+    </body>
+</html>
